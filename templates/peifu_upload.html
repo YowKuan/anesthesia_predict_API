@@ -1,0 +1,26 @@
+
+<html>
+    <head>
+        <title>Mortality Prediction</title>
+        <link rel='stylesheet' href="{{ url_for('static', filename='inputs.css') }}">
+    </head>
+    <script src ="../static/update.js"></script>
+    <body>
+
+    <div class="information">
+        <!--<h1>Upload new File</h1>-->
+        <form action='/predict_upload' method=post enctype=multipart/form-data>
+            <div class="login-box">
+                <h1>Upload Json File</h1>
+                <p><input type=file name=file><br><br>
+                <input type=submit value=Upload class='btn'>
+            </div>
+
+            
+        </form>
+        
+    </div>
+    
+        </body>
+    </body>
+    </html>
